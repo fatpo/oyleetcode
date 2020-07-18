@@ -8,7 +8,6 @@ import java.util.List;
  */
 public class 找到字符串中所有字母异位词_438 {
     public static void main(String[] args) {
-        System.out.println("#############################");
         List<Integer> ans = findAnagrams("ababababab", "aab");
         System.out.println("ans=" + ans);
     }
@@ -16,54 +15,47 @@ public class 找到字符串中所有字母异位词_438 {
     public static List<Integer> findAnagrams(String s, String p) {
         int[] window = new int[128];
         int[] need = new int[128];
-        int needCnt = 0;
-        int cnt = 0;
-        for (int i = 0; i < p.length(); i++) {
-            need[p.charAt(i)]++;
-            needCnt++;
-        }
 
-        // 初始化窗口，p除了最后一个字节都要考察
-        for (int i = 0; i < p.length() - 1; i++) {
-            char ch = s.charAt(i);
-            window[ch]++;
-            if (need[ch] > 0 && need[ch] >= window[ch]) {
-                cnt++;
+        // needClassCnt 表示需要的种类cnt
+        int needClassCnt = 0;
+        for (int i = 0; i < p.length(); i++) {
+            if (need[p.charAt(i)] == 0) {
+                needClassCnt++;
             }
+            need[p.charAt(i)]++;
         }
 
         int left = 0;
-        int right = p.length() - 1;
-
+        int right = 0;
+        int validClassCnt = 0;
         List<Integer> ans = new ArrayList<>();
         while (right < s.length()) {
-            // 考察right字符
-            char rightCh = s.charAt(right);
-            window[rightCh]++;
-            if (need[rightCh] > 0 && need[rightCh] >= window[rightCh]) {
-                cnt++;
+            // 处理r的数据
+            char r = s.charAt(right);
+            right++;
+            if (need[r] > 0) {
+                window[r]++;
+                if (need[r] == window[r]) {
+                    validClassCnt++;
+                }
             }
 
-            // 窗口符合条件直接加到结果集
-            if (cnt == needCnt) {
-                ans.add(left);
-                char leftCh = s.charAt(left);
-                window[leftCh]--;
-
-                // 加完结果后left，right 双双+1，因为放弃left，所以cnt-=1
-                left++;
-                right++;
-                cnt--;
-            } else {
-                // 如果left是个有价值的，放弃left需要cnt-=1
-                char leftCh = s.charAt(left);
-                if (need[leftCh] > 0 && window[leftCh] <= need[leftCh]) {
-                    cnt--;
+            // 定长窗口看p的长度收缩
+            while (right - left >= p.length()) {
+                // 符合条件的添加ans
+                if (validClassCnt == needClassCnt) {
+                    ans.add(left);
                 }
-                // left，right 双双+1
-                window[leftCh]--;
+
+                // 对称处理l的数据
+                char l = s.charAt(left);
+                if (need[l] > 0) {
+                    if (need[l] == window[l]) {
+                        validClassCnt--;
+                    }
+                    window[l]--;
+                }
                 left++;
-                right++;
             }
         }
         return ans;
