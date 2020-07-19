@@ -3,7 +3,7 @@ package 滑动窗口;
 /**
  * Created by ouyang on 2020/7/15.
  */
-public class 字符串的排列_567 {
+public class 字符串的排列_medium_567 {
     public static void main(String[] args) {
         boolean ans = checkInclusion("ab", "eidbaooo");
         System.out.println("ans=" + ans);

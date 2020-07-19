@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by ouyang on 2020/7/15.
  */
-public class 找到字符串中所有字母异位词_438 {
+public class 找到字符串中所有字母异位词_medium_438 {
     public static void main(String[] args) {
         List<Integer> ans = findAnagrams("ababababab", "aab");
         System.out.println("ans=" + ans);

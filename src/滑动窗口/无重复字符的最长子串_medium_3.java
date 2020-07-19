@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by ouyang on 2020/7/15.
  */
-public class 无重复字符的最长子串_3 {
+public class 无重复字符的最长子串_medium_3 {
     public static void main(String[] args) {
         int ans = lengthOfLongestSubstring("abcabcbb");
         System.out.println("ans=" + ans);
