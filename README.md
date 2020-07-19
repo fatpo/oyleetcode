@@ -15,5 +15,5 @@
   * [找到字符串中所有字母异位词](https://github.com/emaste-r/oyleetcode/blob/master/src/滑动窗口/找到字符串中所有字母异位词_medium_438.java)
   * [无重复字符的最长子串](https://github.com/emaste-r/oyleetcode/blob/master/src/滑动窗口/无重复字符的最长子串_medium_3.java)
   * [字符串的排列](https://github.com/emaste-r/oyleetcode/blob/master/src/滑动窗口/字符串的排列_medium_567.java)
-  * [字符串的排列](https://github.com/emaste-r/oyleetcode/blob/master/src/滑动窗口/健身计划评估_easy_1176.java)
+  * [健身计划评估](https://github.com/emaste-r/oyleetcode/blob/master/src/滑动窗口/健身计划评估_easy_1176.java)
 
