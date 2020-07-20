@@ -11,6 +11,7 @@
   * [博弈](#博弈)
     + [石子游戏](#石子游戏)
 - [滑动窗口](#滑动窗口)
+  * [做题模板](https://github.com/emaste-r/oyleetcode/blob/master/src/滑动窗口/滑动窗口.md)
   * [最小覆盖子串_hard_76](https://github.com/emaste-r/oyleetcode/blob/master/src/滑动窗口/最小覆盖子串_hard_76.java)
   * [找到字符串中所有字母异位词_medium_438](https://github.com/emaste-r/oyleetcode/blob/master/src/滑动窗口/找到字符串中所有字母异位词_medium_438.java)
   * [无重复字符的最长子串_medium_3](https://github.com/emaste-r/oyleetcode/blob/master/src/滑动窗口/无重复字符的最长子串_medium_3.java)
@@ -20,4 +21,5 @@
   * [滑动窗口最大值_hard_239](https://github.com/emaste-r/oyleetcode/blob/master/src/滑动窗口/滑动窗口最大值_hard_239.java)
   * [长度为K的无重复字符子串_medium_1100](https://github.com/emaste-r/oyleetcode/blob/master/src/滑动窗口/长度为K的无重复字符子串_medium_1100.java)
   * [至多包含K个不同字符的最长子串_hard_340](https://github.com/emaste-r/oyleetcode/blob/master/src/滑动窗口/至多包含K个不同字符的最长子串_hard_340.java)
+  * [队列的最大值II_medium_剑指Offer59](https://github.com/emaste-r/oyleetcode/blob/master/src/滑动窗口/队列的最大值II_medium_剑指Offer59.java)
 
