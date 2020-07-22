@@ -23,4 +23,5 @@
   * [至多包含K个不同字符的最长子串_hard_340](https://github.com/emaste-r/oyleetcode/blob/master/src/滑动窗口/至多包含K个不同字符的最长子串_hard_340.java)
   * [队列的最大值II_medium_剑指Offer59](https://github.com/emaste-r/oyleetcode/blob/master/src/滑动窗口/队列的最大值II_medium_剑指Offer59.java)
   * [爱生气的书店老板_medium_1052](https://github.com/emaste-r/oyleetcode/blob/master/src/滑动窗口/爱生气的书店老板_medium_1052.java)
+  * [替换后的最长重复字符_medium_424](https://github.com/emaste-r/oyleetcode/blob/master/src/滑动窗口/替换后的最长重复字符_medium_424.java)
 
