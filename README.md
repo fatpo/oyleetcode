@@ -15,6 +15,7 @@
   * [普通的二分查找](#普通的二分查找)
     * [猜数字大小_easy_374](https://github.com/emaste-r/oyleetcode/blob/master/src/二分查找/猜数字大小_easy_374.java)
     * [找出所有行中最小公共元素_medium_1198](https://github.com/emaste-r/oyleetcode/blob/master/src/二分查找/找出所有行中最小公共元素_medium_1198.java)
+    * [x的平方根_easy_69](https://github.com/emaste-r/oyleetcode/blob/master/src/二分查找/x的平方根_easy_69.java)
   * [搜索二维矩阵_medium_74](https://github.com/emaste-r/oyleetcode/blob/master/src/二分查找/搜索二维矩阵_medium_74.java)
   * [在排序数组中查找元素的第一个和最后一个位置_medium_34](https://github.com/emaste-r/oyleetcode/blob/master/src/二分查找/在排序数组中查找元素的第一个和最后一个位置_medium_34.java)
     
