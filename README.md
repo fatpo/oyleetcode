@@ -10,6 +10,12 @@
     + [爬楼梯](#爬楼梯)
   * [博弈](#博弈)
     + [石子游戏](#石子游戏)
+- [二分查找](#二分查找)
+  * [做题模板](https://github.com/emaste-r/oyleetcode/blob/master/src/二分查找/二分查找题型.md)
+  * [猜数字大小_easy_374](https://github.com/emaste-r/oyleetcode/blob/master/src/二分查找/猜数字大小_easy_374.java)
+  * [搜索二维矩阵_medium_74](https://github.com/emaste-r/oyleetcode/blob/master/src/二分查找/搜索二维矩阵_medium_74.java)
+  * [在排序数组中查找元素的第一个和最后一个位置_medium_34](https://github.com/emaste-r/oyleetcode/blob/master/src/二分查找/在排序数组中查找元素的第一个和最后一个位置_medium_34.java)
+    
 - [滑动窗口](#滑动窗口)
   * [做题模板](https://github.com/emaste-r/oyleetcode/blob/master/src/滑动窗口/滑动窗口.md)
   * [最小覆盖子串_hard_76](https://github.com/emaste-r/oyleetcode/blob/master/src/滑动窗口/最小覆盖子串_hard_76.java)
